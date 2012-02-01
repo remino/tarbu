@@ -1,6 +1,8 @@
 #!/bin/bash
 
-# TarBU: Tar Backup
+# tarbu
+# by Remi Plourde
+# <http://github.com/remino/tarbu>
 
 tarbu_main() {
   [ $# -lt 1 ] && tarbu_usage
