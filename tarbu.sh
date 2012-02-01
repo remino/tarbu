@@ -66,7 +66,7 @@ tarbu_tarball() {
 }
 
 tarbu_usage() {
-  echo "Usage: `base_name $0` action args..."
+  echo "Usage: `basename $0` action args..."
   echo ""
   echo "Actions:"
   echo "  backup what into"
